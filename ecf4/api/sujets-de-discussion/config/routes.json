@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sujets-de-discussions",
+      "handler": "sujets-de-discussion.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sujets-de-discussions/count",
+      "handler": "sujets-de-discussion.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sujets-de-discussions/:id",
+      "handler": "sujets-de-discussion.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/sujets-de-discussions",
+      "handler": "sujets-de-discussion.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sujets-de-discussions/:id",
+      "handler": "sujets-de-discussion.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sujets-de-discussions/:id",
+      "handler": "sujets-de-discussion.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "messages",
+  "info": {
+    "name": "messages"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "corps": {
+      "type": "text"
+    },
+    "id_user": {
+      "type": "integer"
+    },
+    "id_sujet": {
+      "type": "integer"
+    },
+    "date_message": {
+      "type": "date"
+    }
+  }
+}

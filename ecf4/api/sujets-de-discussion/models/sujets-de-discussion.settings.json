@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sujets_de_discussions",
+  "info": {
+    "name": "sujets de discussion"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "titre": {
+      "type": "string"
+    },
+    "id_user": {
+      "type": "integer"
+    },
+    "date_creation": {
+      "type": "date"
+    }
+  }
+}
